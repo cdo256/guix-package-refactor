@@ -1,0 +1,41 @@
+Given a list of packages and descriptions, please suggest ways of categorizing them (by function or theme)  in a way that keeps each category about equal size.
+
+The current language is golang.scm. We have:
+ - golang.scm - 396 packages
+ - golang-web.scm - 59 package
+ - golang-crypto.scm - 34 package
+ - golang-check.scm - 26 package
+Planned:
+ - golang-build.scm - software building tools and libraries
+ - golang-compression.scm - compression libraries and utilities
+ - golang-utils.scm - general utility packages
+ - golang-networking.scm
+ - golang-logging.scm
+ - golang-file.scm
+ - golang-unicode.scm
+ - golang-pdf.scm
+ - golang-system.scm - system administration packages
+ - golang-package-management.scm
+ - golang-cli.scm - command-line interface related packages
+ - golang-data.scm - data manipulation packages
+
+You will be given some subset of golang.scm. If you see a multiple packages share a common theme, then please suggest a new filename to put them in.
+
+Each file should contain between 25-100 packages ideally and have a clear theme.
+
+Each file/grouping should start with filename at the top with a short synopsis, followed by a list of package names, followed by their synopsis. Don't include description in the output. Order of packages doesn't matter at this stage. Each package may either start with -, ? or *. ? means you're not sure; * means that the package could fit into multiple files (in that case, it should be marked as such in both files it would fit in). Use '-' otherwise. *Output in a code block.*
+
+Example:
+
+    golang-hash.scm - hashing algorithms:
+     - go-github-com-tdewolff-hasher
+       Go known-keys fast-lookup map generator
+    * go-github-com-dgryski-go-metro
+       Go translation of MetroHash
+       ...
+
+    golang-hpc.scm - high performance computation tools and libraries:
+        ...
+    * go-github-com-dgryski-go-metro
+       Go translation of MetroHash
+     ...

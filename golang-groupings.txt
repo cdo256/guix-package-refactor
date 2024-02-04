@@ -1,0 +1,723 @@
+golang-utils.scm - general utility packages:
+  - go-github-com-agext-levenshtein
+    Calculating the Levenshtein distance between two strings in Go
+  - go-github-com-apparentlymart-go-textseg-v13
+    Go implementation of Unicode Text Segmentation
+  - go-github-com-jcmturner-gofork
+    Modified Go standard library packages
+  - go-github-com-jcmturner-rpc
+    Remote Procedure Call libraries
+  - go-github-com-jcmturner-rpc-v2-ndr
+  - go-github-com-jcmturner-rpc-v2-mstypes
+  - go-github-com-kortschak-utter
+    Deep pretty printer
+  - go-github-com-leonelquinteros-gotext
+    GNU gettext utilities in Go
+  - go-github-com-pkg-xattr
+    Support for extended file system attributes
+  - go-github-com-schachmat-ingo
+    Go library to persist flags in a INI-like configuration file
+  - go-github-com-operatorfoundation-monolith-go
+    Byte sequences library
+  - go-github-com-deckarep-golang-set
+    Set type for Go
+  - go-github-com-bitly-go-hostpool
+    Pool among multiple hosts from Golang
+  - go-github-com-blanu-dust
+    Censorship-resistant internet transport protocol
+  - go-github-com-op-go-logging
+    Go logging library
+  - go-github-com-operatorfoundation-shapeshifter-ipc
+    Go implementation of the Pluggable Transports IPC protocol
+  - go-github-com-operatorfoundation-obfs4
+    Network obfourscator to scramble network traffic
+  - go-github-com-flopp-go-findfont
+    go-findfont
+  - go-github-com-phpdave11-gofpdi
+    PDF document importer
+  - go-github-com-signintech-gopdf
+    Generating PDF documents
+  - go-github-com-wraparound-wrap
+    Format Fountain screenplays
+  - go-gitlab-torproject-org-tpo-anti-censorship-pluggable-transports-goptlib
+    Go pluggable transports library
+  - go-gitlab-torproject-org-tpo-anti-censorship-pluggable-transports-lyrebird
+    Look-like nothing obfuscation protocol
+  - go-github-com-sevlyar-go-daemon
+    Library for writing system daemons
+  - go-github-com-dchest-siphash
+    Go library for pseudorandom functions
+  - go-github-com-rakyll-statik
+    Embed files into a Go executable
+  - go-github-com-miolini-datacounter
+    Counters for Go readers and writers
+  - go-github-com-emersion-go-textwrapper
+    Text-wrapping writer for Go
+  - go-github-com-gizak-termui
+    Terminal dashboard widget Go library
+
+golang-networking.scm - networking related packages:
+  - go-github-com-bitly-timer-metrics
+    Capture timing information and periodically output metrics
+  - go-github-com-operatorfoundation-monolith-go
+    Byte sequences library
+  - go-github-com-blanu-dust
+    Censorship-resistant internet transport protocol
+  - go-github-com-operatorfoundation-shapeshifter-ipc
+    Go implementation of the Pluggable Transports IPC protocol
+  - go-github-com-operatorfoundation-obfs4
+    Network obfourscator to scramble network traffic
+  - go-gitlab-torproject-org-tpo-anti-censorship-pluggable-transports-goptlib
+    Go pluggable transports library
+  - go-gitlab-torproject-org-tpo-anti-censorship-pluggable-transports-lyrebird
+    Look-like nothing obfuscation protocol
+
+golang-logging.scm - logging related packages:
+  - go-github-com-kataras-golog
+    Logging foundation for Go applications
+  - go-github-com-op-go-logging
+    Go logging library
+
+golang-file.scm - file related packages:
+  - go-github-com-pkg-xattr
+    Support for extended file system attributes
+  - go-github-com-schachmat-ingo
+    Go library to persist flags in a INI-like configuration file
+
+golang-unicode.scm - Unicode related packages:
+  - go-github-com-apparentlymart-go-textseg-v13
+    Go implementation of Unicode Text Segmentation
+  - go-github-com-apparentlymart-go-textseg-autoversion
+    Go implementation of Unicode Text Segmentation
+  - go-github-com-leonelquinteros-gotext
+    GNU gettext utilities in Go 
+
+golang-pdf.scm - PDF related packages:
+  - go-github-com-phpdave11-gofpdi
+    PDF document importer
+  - go-github-com-signintech-gopdf
+    Generating PDF documents
+
+golang-system.scm - system administration packages:
+  - go-github-com-jcmturner-gofork
+    Modified Go standard library packages
+  - go-github-com-jcmturner-rpc
+    Remote Procedure Call libraries
+  - go-github-com-jcmturner-rpc-v2-ndr
+  - go-github-com-jcmturner-rpc-v2-mstypes
+  - go-github-com-sevlyar-go-daemon
+    Library for writing system daemons
+
+golang-package-management.scm - package management related packages:
+  - go-github-com-jcmturner-gofork
+    Modified Go standard library packages
+
+golang-cryptography.scm - cryptographic packages:
+  - go-github-com-jcmturner-rpc
+    Remote Procedure Call libraries
+  - go-github-com-jcmturner-rpc-v2-ndr
+  - go-github-com-jcmturner-rpc-v2-mstypes
+  - go-github-com-operatorfoundation-monolith-go
+    Byte sequences library
+  - go-github-com-dchest-siphash
+    Go library for pseudorandom functions
+
+golang-cli.scm - command-line interface related packages:
+  - go-github-com-jcmturner-gofork
+    Modified Go standard library packages
+  - go-github-com-jcmturner-rpc
+    Remote Procedure Call libraries
+  - go-github-com-jcmturner-rpc-v2-ndr
+  - go-github-com-jcmturner-rpc-v2-mstypes
+  - go-github-com-wraparound-wrap
+    Format Fountain screenplays
+  - go-gitlab-torproject-org-tpo-anti-censorship-pluggable-transports-goptlib
+    Go pluggable transports library
+  - go-gitlab-torproject-org-tpo-anti-censorship-pluggable-transports-lyrebird
+    Look-like nothing obfuscation protocol
+  - go-github-com-rakyll-statik
+    Embed files into a Go executable
+
+golang-data.scm - data manipulation packages:
+  - go-github-com-kortschak-utter
+    Deep pretty printer
+  - go-github-com-blanu-dust
+    Censorship-resistant internet transport protocol
+
+---
+
+golang-internationalization.scm - packages related to internationalization and localization:
+  - go-github-com-go-playground-universal-translator
+    Translator using Unicode CLDR data and pluralization rules
+
+golang-config.scm - packages related to configuration management:
+  - go-github-com-spf13-viper
+    Go configuration with fangs
+  - go-github-com-hashicorp-hcl
+    Go implementation of HashiCorp Configuration Language V1
+  - go-github-com-hashicorp-hcl-v2
+    Go implementation of HashiCorp Configuration Language V2
+  - go-github-com-pelletier-go-toml
+    Go library for the TOML configuration language
+
+golang-cli.scm - packages related to command-line interfaces:
+  - go-github-com-tj-docopt
+    Go implementation of docopt
+  - go-github-com-spf13-cobra
+    Go library for creating CLI applications
+  - go-github-com-spf13-pflag
+    POSIX/GNU-style command-line options for Go
+
+golang-logging.scm - packages related to logging:
+  - go-github-com-natefinch-lumberjack
+    Rolling logger for Go
+  - go-github-com-jtolds-gls
+    Goroutine Local Storage for Go
+  - go-github-com-spf13-jwalterweatherman
+    Go logging library
+
+golang-validator.scm - packages related to data validation:
+  - go-gopkg-in-go-playground-validator-v9
+    Validator for structs and individual fields based on tags
+
+golang-file.scm - packages related to file system manipulation:
+  - go-github-com-spf13-afero
+    File system abstraction for Go
+  - go-github-com-subosito-gotenv
+    Go library for loading environment variables from files
+
+golang-networking.scm - packages related to networking:
+  - go-golang-org-x-net-html
+    HTML5-compliant tokenizer and parser
+  - go-golang-org-x-net
+    Supplementary networking libraries for the Go language
+  - go-github-com-technoweenie-multipartstreamer
+    MIME multipart format streamer
+
+golang-crypto.scm - packages related to cryptography:
+  - go-golang-org-x-crypto
+    Supplementary cryptographic libraries in Go
+
+golang-util.scm - general utility packages:
+  - go-github-com-stretchr-objx
+    Go package for dealing with maps, slices, JSON and other data
+  - go-github-com-hashicorp-go-uuid
+    Generate UUID-format strings
+
+golang-security.scm
+  - govulncheck
+    Go Vulnerability Management
+
+golang-system.scm - packages related to system administration:
+  - go-github-com-fsnotify-fsnotify
+    File system notifications for Go
+  - go-github-com-nxadm-tail
+    Go library for reading from continuously updated files
+
+golang-package-management.scm - packages related to Go package management:
+  - go-golang-org-x-tools
+    Tools that support the Go programming language
+  - go-golang-org-x-exp
+    Experimental and deprecated Go packages
+  - go-github-com-spf13-pflag
+    POSIX/GNU-style command-line options for Go
+
+golang-json.scm - packages related to JSON manipulation:
+  - gron
+    Transform JSON to make it easier to grep
+  - go-github-com-magiconair-properties
+    Java properties scanner for Go
+  - go-github-com-stretchr-objx
+    Go package for dealing with maps, slices, JSON and other data
+
+golang-text.scm - packages related to text processing:
+  - go-golang-org-x-text
+    Supplemental Go text processing libraries
+
+golang-build.scm - software building tools and libraries:
+  - go-github-com-hashicorp-go-uuid
+    Generate UUID-format strings
+  - go-github-com-golang-org-x-tools
+    Tools that support the Go programming language
+
+golang-web.scm - packages related to web development:
+  - go-gopkg-in-go-playground-validator-v9
+    Validator for structs and individual fields based on tags
+  - go-github-com-nsqio-go-nsq
+    Consumer/producer library for NSQ
+  - go-github-com-nsqio-go-diskqueue
+    Go package providing a file system backed FIFO queue
+
+golang-check.scm - packages related to testing and verification:
+  - go-gopkg-in-go-playground-validator-v9
+    Validator for structs and individual fields based on tags
+
+Unknown
+  - go-github-com-andybalholm-brotli
+    Pure Go Brotli encoder and decoder
+
+---
+
+golang-gogoprotobuf.scm - Protocol Buffers for Go with Gadgets:
+  - go-github-com-gogo-protobuf
+    Protocol Buffers for Go with Gadgets
+
+golang-logging.scm - Go logging libraries:
+  - go-github-com-davecgh-go-spew
+    Deep pretty printer for Go data structures to aid in debugging
+  - go-github-com-mitchellh-reflectwalk
+    Walk a value in Go using reflection
+  - go-github-com-mitchellh-copystructure
+    Go library for decoding deep copying values
+  - go-github-com-urfave-cli
+    Simple, fast, and fun package for building command line apps in Go
+  - go-github-com-urfave-cli-v2
+
+golang-yaml.scm - Go YAML libraries:
+  - go-github-com-gopkg-in-yaml-v2
+    YAML reader and writer for the Go language
+  - go-github-com-gopkg-in-yaml-v3
+
+golang-networking.scm - Go networking libraries:
+  - go-github-com-dgryski-go-mph
+    Go minimal perfect hash function
+  - go-github-com-mattn-go-isatty
+    Isatty is a cross-platform library to determine if a filehandle refers to a terminal or not
+  - go-github-com-mattn-go-colorable
+    Handle ANSI color escapes on Windows
+  - go-github-com-spaolacci-murmur3
+    Native MurmurHash3 Go implementation
+  - go-github-com-twmb-murmur3
+    Native MurmurHash3 Go implementation
+
+golang-commandline.scm - Go command line libraries:
+  - go-github-com-client9-misspell
+    Correct commonly misspelled English words in source files
+  - misspell
+    Correct commonly misspelled English words in source files
+  - go-github-com-urfave-cli
+    Simple, fast, and fun package for building command line apps in Go
+  - go-github-com-urfave-cli-v2
+
+golang-system.scm - Go system administration libraries:
+  - go-github-com-go-sql-driver-mysql
+    MySQL driver for golang
+  - go-github-com-go-md2man
+    Convert markdown into roff
+  - go-github-com-russross-blackfriday
+    Markdown processor in Go
+  - go-github-com-shurcool-sanitized-anchor-name
+    Create sanitized anchor names
+  - go-github-com-pmezard-go-difflib
+    Go diff implementation
+  - go-github-com-kr-pretty
+    Pretty printer for Go values
+  - go-github-com-kylelemons-godebug
+    Pretty printer for Go values
+  - go-github-com-kr-text
+    Text formatting in Go
+
+golang-utils.scm - Go utility libraries:
+  - go-github-com-mreiferson-go-options
+    Go package to structure and resolve options
+  - go-github-com-kr-pretty
+    Pretty printer for Go values
+  - go-github-com-shurcool-sanitized-anchor-name
+    Create sanitized anchor names
+  - go-github-com-pmezard-go-difflib
+    Go diff implementation
+  - go-github-com-kr-text
+    Text formatting in Go
+
+---
+
+golang-terminfo.scm - terminfo database reading and manipulation:
+  - go-github-com-xo-terminfo
+    Read the terminfo database in Go
+
+golang-generics.scm - generics support:
+  - go-github-com-cheekybits-genny
+    Generics for Go
+
+golang-network.scm - networking related packages:
+  - go-github-com-quic-go-qpack
+    Minimal QPACK RFC 9204 implementation for Go
+  - go-github-com-quic-go-quic-go
+    QUIC in Go
+  - go-github-com-emersion-go-imap
+    IMAP4rev1 library written in Go
+  - go-github-com-emersion-go-imap-sortthread
+    Sorting and threading of messages for the imap package
+  - go-github-com-emersion-go-smtp
+    SMTP implementation for Go
+  - go-github-com-emersion-go-maildir
+    Maildir interface for Go
+  - go-github-com-google-gopacket
+    Packet processing capabilities library
+
+golang-file.scm - file manipulation:
+  - go-github-com-lunixbochs-vtclean
+    Filter out terminal escape sequences
+  - go-github-com-danwakefield-fnmatch
+    Updated clone of kballards golang fnmatch gist
+  - go-github-com-mattn-go-sqlite3
+    Sqlite3 driver for Go
+  - go-github-com-google-renameio
+    Atomically create or replace a file or symbolic link
+  - go-github-com-mattn-go-zglob
+    Glob library that descends into other directories
+  - go-github-com-fogleman-gg
+    2D rendering in Go
+
+golang-error.scm - error handling:
+  - go-github-com-pkg-errors
+    Go error handling primitives
+
+golang-cron.scm - cron scheduling:
+  - go-github-com-robfig-cron
+    Cron library for Go
+
+golang-email.scm - email related packages:
+  - go-github-com-emersion-go-milter
+    Milter mail filters in Go
+  - go-github-com-emersion-go-msgauth
+    Email authentication for Go
+  - go-github-com-emersion-go-mbox
+  - go-github-com-emersion-go-maildir
+    Maildir interface for Go
+
+golang-utils.scm - utility packages:
+  - go-github-com-fatih-color
+    Print colored text in Go
+  - go-github-com-maruel-panicparse
+    Toolkit for parsing Go stack traces
+  - go-github-com-google-go-cmp-cmp
+    Determine equality of values in Go
+  - go-github-com-bits-and-blooms-bitset
+    Bitsets in Go
+  - go-github-com-bits-and-blooms-bloom
+    Bloom filters in Go
+  - go-github-com-klauspost-cpuid
+    CPU feature identification for Go
+
+not-sure.scm - packages we're not sure about:
+  - go-github-com-google-uuid
+    Generate and inspect UUIDs based on RFC 4122 and DCE 1.1
+  - go-gotest-tools-package
+    Formats messages for use with gotest-tools
+  - go-gotest-tools-assert
+    Compare values and fail a test when a comparison fails
+  - gotestsum
+    Go test runner with output optimized for humans
+
+---
+
+golang-template.scm - template related packages:
+  - go-github-com-masterminds-sprig
+    Template functions for Go templates
+
+golang-file-pattern.scm - file pattern matching and globbing:
+  - go-github-com-bmatcuk-doublestar
+    Path pattern matching and globbing supporting doublestar
+
+golang-quantile.scm - quantile computation:
+  - go-github-com-bmizerany-perks-quantile
+    Library for computing quantiles
+
+golang-regexp.scm - regular expressions:
+  - go-github-com-dlclark-regexp2
+    Full featured regular expressions for Go
+
+golang-terminal-style.scm - terminal text styling:
+  - go-github-com-alecthomas-colour
+    Colour terminal text for Go
+  - go-github-com-charmbracelet-glamour
+    Write handsome command-line tools with glamour
+  - go-github-com-charmbracelet-harmonica
+    Simple, physics-based animation library
+  - go-github-com-muesli-termenv
+    Advanced styling options on the terminal
+
+golang-text-processing.scm - text processing utilities:
+  - go-github-com-sergi-go-diff
+    Algorithms to perform operations for synchronizing plain text
+  - go-github-com-alecthomas-chroma
+    General purpose syntax highlighter in pure Go
+  - go-github-com-muesli-reflow-wordwrap
+    Collection of methods helping to transform blocks of text
+  - go-github-com-muesli-reflow-ansi
+  - go-github-com-muesli-reflow-indent
+  - go-github-com-muesli-reflow-padding
+  - go-github-com-muesli-reflow-truncate
+  - go-github-com-jba-printsrc
+    Prints Go values as sourcecode
+  - go-github-com-jba-templatecheck
+    Checks Go templates for problems
+  - go-github-com-olekukonko-tablewriter
+    Generate ASCII table
+  - go-github-com-yuin-goldmark
+    Markdown parser
+  - go-github-com-xdg-go-pbkdf2
+    Go implementation of PBKDF2
+  - go-github-com-xdg-go-scram
+    Go implementation of RFC-5802
+
+golang-versioning.scm - semantic versioning and system library management:
+  - go-github-com-coreos-go-semver
+    Semantic versioning library
+  - go-github-com-coreos-go-systemd-activation
+    Go bindings to systemd socket activation
+
+golang-data-structures.scm - data structures and algorithms:
+  - go-github-com-emirpasic-gods
+    Implementation of various data structures and algorithms in Go
+
+golang-shell.scm - shell and file system utilities:
+  - go-github-com-twpayne-go-shell
+    Shell across multiple platforms
+  - go-github-com-twpayne-go-vfs
+  - go-github-com-twpayne-go-vfsafero
+  - go-github-com-twpayne-go-xdg
+    Functions related to freedesktop.org
+
+golang-dbus.scm - D-Bus messaging:
+  - go-github-com-godbus-dbus
+    Native Go client bindings for the D-Bus
+
+golang-metrics.scm - metrics-related packages:
+  - go-github-com-prometheus-common
+    Prometheus metrics
+  - go-github-com-prometheus-client-golang
+    HTTP server and client tools for Prometheus
+
+golang-keyring.scm - keyring and secrets management:
+  - go-github-com-zalando-go-keyring
+    Library for working with system keyring
+
+golang-string-processing.scm - string manipulation and formatting:
+  - go-github-com-xdg-go-stringprep
+    Go implementation of RFC-3454 stringprep and RFC-4013 SASLprep
+  - go-github-com-xdg-go-pbkdf2
+    Go implementation of PBKDF2
+
+golang-low-level.scm - low-level storage and interaction:
+  - go-etcd-io-bbolt
+    Low-level key/value store in Go
+  - go-github-com-go-git-go-billy
+    File system abstraction for Go
+
+golang-internal.scm - internal packages from the Go standard library:
+  - go-github-com-rogpeppe-go-internal
+    Internal packages from the Go standard library
+
+golang-error.scm - error handling and formatting:
+  - go-gopkg-in-errgo-fmt-errors
+    Functions that use the fmt package to format error messages
+
+---
+
+golang-text.scm - text processing and parsing utilities:
+  - go-github-com-masterminds-sprig
+    Template functions for Go templates
+  - go-github-com-sergi-go-diff
+    Algorithms to perform operations for synchronizing plain text
+  - go-github-com-dlclark-regexp2
+    Full featured regular expressions for Go
+  - go-github-com-xurls *
+    Extracts URLs from text
+  - go-github-com-mtibben-percent *
+    Package percent escapes strings using percent-encoding
+  - go-github-com-masterminds-sprig
+    Template functions for Go templates
+  - go-github-com-sergi-go-diff
+    Algorithms to perform operations for synchronizing plain text
+  - go-github-com-dlclark-regexp2
+    Full featured regular expressions for Go
+  - go-github-com-xurls
+    Extracts URLs from text
+  - go-github-com-goccy-yaml
+    YAML support for the Go language
+
+golang-development.scm - development tools
+  - go-github-com-gofumpt
+    Go code formatter
+  - go-github-com-mvdan-cc-gofumpt
+    Formats Go files with a stricter ruleset than gofmt
+  - gopls
+    Official language server for the Go language
+
+golang-crypto.scm - cryptographic algorithms and utilities:
+  - go-github-com-xdg-go-stringprep *
+    Go implementation of RFC-3454 stringprep and RFC-4013 SASLprep
+  - go-github-com-mtibben-percent *
+    Package percent escapes strings using percent-encoding
+  - go-github-com-go-uber-org-x-term
+    Go terminal/console support
+  - go-github-com-xdg-go-stringprep *
+    Go implementation of RFC-3454 stringprep and RFC-4013 SASLprep
+  - go-github-com-xdg-go-pbkdf2
+    Go implementation of PBKDF2
+  - go-github-com-xdg-go-scram
+    Go implementation of RFC-5802
+
+  - go-github-com-go-git-go-git-fixtures *
+    Go Git fixtures
+
+golang-compression.scm - compression libraries and utilities:
+  - go-github-com-ulikunitz-xz
+    Read and write xz compressed streams in Go
+  - go-github-com-klauspost-compress
+    Go compression library
+
+golang-utils.scm - general utility packages:
+  - go-github-com-arceliar-ironwood
+    Experimental network routing library
+  - aws-vault *
+    Vault for securely storing and accessing AWS credentials
+  - go-github-com-mvdan-cc-unparam
+    Find unused parameters in Go
+  - go-github-com-vmihailenco-msgpack-v4
+    MessagePack encoding for Golang
+  - go-github-com-vmihailenco-tagparser
+    Tag parser for Golang
+  - go-etcd-io-bbolt
+    Low-level key/value store in Go
+  - go-github-com-go-git-go-git-fixtures *
+    Go Git fixtures
+  - go-github-com-go-git-go-git-srep
+    Go Git selective replication package
+  - go-github-com-siser-go-api-mock *
+    Mock server generator
+  - go-github-com-gostaticanalysis *
+    Static analysis API for Go
+  - go-github-com-openstack-swift-go-proxyclient *
+    Powerful little TUI framework
+  - go-github-com-go-git-go-billy
+    File system abstraction for Go
+  - go-github-com-go-git-gcfg
+    Gcfg reads INI-style configuration files into Go structs
+
+golang-logging.scm:
+  - go-github-com-beorn7-perks
+    Logging library for Go
+
+golang-networking.scm - networking related packages:
+  - go-github-com-mtibben-androiddnsfix *
+    Android DNS fix
+  - go-github-com-go-uber-org-atomic
+    Wrapper types for sync/atomic
+  - go-github-com-go-git-sr-ht-adnano-go-gemini
+    Gemini protocol in Go
+  - go-github-com-mtibben-percent
+    Package percent escapes strings using percent-encoding
+  - go-github-com-mtibben-androiddnsfix *
+    Android DNS fix
+  - go-github-com-go-uber-org-x-term
+    Go terminal/console support
+  - go-github-com-kevinburke-ssh-config
+    Go library for parsing OpenSSH configuration files
+  - go-github-com-go-uber-org-multierr
+    Error combination for Go
+  - go-github-com-mvdan-cc-unparam
+    Find unused parameters in Go
+  - go-github-com-oneofone-xxhash
+    Go implementation of xxHash
+  - go-github-com-go-git-go-billy
+    File system abstraction for Go
+  - go-github-com-go-git-go-git-fixtures *
+    Go Git fixtures
+  - go-github-com-vmihailenco-msgpack-v4
+    MessagePack encoding for Golang
+  - go-github-com-vmihailenco-tagparser
+    Tag parser for Golang
+
+golang-logging.scm - logging libraries and utilities:
+  - go-github-com-charmbracelet-harmonica
+    Simple, physics-based animation library
+  - go-github-com-go-uber-org-zap
+    Logging library for Go
+  - go-github-com-beorn7-perks
+    Logging library for Go
+
+golang-desktop.scm - desktop related functionality:
+  - go-github-com-beorn7-perks *
+    Logging library for Go
+  - go-github-com-zalando-go-keyring
+    Library for working with system keyring
+  - go-github-com-twpayne-go-vfs
+  - go-github-com-twpayne-go-vfsafero
+  - go-github-com-twpayne-go-xdg
+
+golang-crypto.scm - cryptographic algorithms and utilities:
+  - go-github-com-xdg-go-stringprep *
+    Go implementation of RFC-3454 stringprep and RFC-4013 SASLprep
+  - go-github-com-xdg-go-pbkdf2
+    Go implementation of PBKDF2
+
+golang-system.scm - system administration packages:
+  - go-github-com-kevinburke-ssh-config *
+    Go library for parsing OpenSSH configuration files
+  - go-github-com-go-git-sr-ht-sircmpwn-getopt
+    POSIX getopt for Go
+
+golang-utils.scm - general utility packages:
+  - go-github-com-emirpasic-gods
+    Implementation of various data structures and algorithms in Go
+  - go-github-com-dlclark-regexp2
+    Full featured regular expressions for Go
+  - go-etcd-io-bbolt
+    Low-level key/value store in Go
+  - go-github-com-go-git-go-billy *
+    File system abstraction for Go
+  - go-github-com-go-uber-org-x-term *
+    Go terminal/console support
+  - go-github-com-vmihailenco-msgpack-v4 *
+    MessagePack encoding for Golang
+
+---
+
+golang-web.scm - web-related packages:
+  - go-github-com-disintegration-imaging
+    Simple image processing for Go
+  - go-github-com-jaytaylor-html2text
+    Convert HTML emails to text
+  - go-github-com-jhillyerd-enmime
+    MIME encoder and decoder for Go
+  - go-github-com-emersion-go-message
+    Internet messages and MIME for Go
+
+golang-crypto.scm - cryptographic algorithms and utilities:
+  - go-github-com-go-git-sr-ht-sircmpwn-getopt
+    POSIX getopt for Go
+
+golang-build.scm - software building tools and libraries:
+  - go-github-com-peterbourgon-diskv
+    Disk-backed key-value store
+  - go-github-com-creack-pty
+    Pseudoterminal handling in Go
+
+golang-compression.scm - compression libraries and utilities:
+  - go-github-com-riywo-loginshell
+    Get the user's login shell in Go
+
+golang-utils.scm - general utility packages:
+  - go-github-com-rylans-getlang
+    Natural language detection package in pure Go
+  - go-github-com-kyoh86-xdg
+    XDG base directories for Go
+  - go-github-com-ssgelm-cookiejarparser
+    Parse a curl cookiejar with Go
+  - go-github-com-ssor-bom
+    Cleaning BOMs in Go
+  - go-github-com-gogs-chardet
+    Character set detection for Go
+  - go-github-com-go-test-deep
+    Human-friendly deep variable equality in Go
+  - go-github-com-niemeyer-pretty
+    Pretty-print Go values
+  - go-github-com-arran4-golang-ical
+    Handle iCalendars in Go
+  - go-github-com-lithammer-fuzzysearch
+    Tiny and fast fuzzy search in Go
+  - go-github-com-onsi-gomega
+    Matcher library for Ginkgo

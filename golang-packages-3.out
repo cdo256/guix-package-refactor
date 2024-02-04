@@ -1,0 +1,1319 @@
+name "go-github-com-agext-levenshtein"
+synopsis "Calculating the Levenshtein distance between two strings in Go"
+description
+ "Package levenshtein implements distance and similarity metrics for
+    strings, based on the Levenshtein measure."
+name "go-github-com-apparentlymart-go-textseg-v13"
+synopsis "Go implementation of Unicode Text Segmentation"
+description
+ "This package provides an implementation of the Unicode Text Segmentation
+    specification for Go.  Specifically, it currently includes only the grapheme
+    cluster segmentation algorithm."
+;; Project is released under Expat terms.  Some parts use Unicode and
+name "go-github-com-apparentlymart-go-textseg-autoversion"
+    functionality for functions that may fail.  It includes various customizable
+    retry strategies, such as fixed delay, backoff delay, and random delay."
+name "go-github-com-operatorfoundation-shapeshifter-transports"
+synopsis "Go implementation of Pluggable Transports"
+description "Shapeshifter-Transports is a set of Pluggable Transports
+    implementing the Go API from the Pluggable Transports 2.0 specification.
+    Each transport implements a different method of shapeshifting network traffic.
+    The goal is for application traffic to be sent over the network in a shapeshifted
+    form that bypasses network filtering, allowing the application to work on
+    networks where it would otherwise be blocked or heavily throttled."
+name "go-github-com-jcmturner-gofork"
+synopsis "Modified Go standard library packages"
+description
+ "This repository contains modified Go standard library packages for use as work
+    arounds until issues are addressed in the official distribution."
+name "go-github-com-jcmturner-rpc"
+synopsis "Remote Procedure Call libraries"
+description
+ "This package provides a partial Go implementation of the Remote Call
+    Procedure libraries, presented in
+    Call}."
+name "go-github-com-jcmturner-rpc-v2-ndr"
+name "go-github-com-jcmturner-rpc-v2-mstypes"
+name "go-github-com-kataras-golog"
+synopsis "Logging foundation for Go applications"
+description "GoLog is a level-based logger written in Go."
+name "go-github-com-kataras-pio"
+synopsis "Pill for Input/Output"
+description "PIO is a low-level package that provides a way to centralize
+    different output targets.  Supports colors and text decoration to all popular
+    terminals."
+name "go-github-com-kortschak-utter"
+synopsis "Deep pretty printer"
+description
+ "This package implements a deep pretty printer for Go data structures to
+    aid data snapshotting."
+name "go-github-com-leonelquinteros-gotext"
+synopsis "GNU gettext utilities in Go"
+description "This package implements GNU gettext utilities in Go.  It features:
+    goroutines.
+    the first isn't available.
+name "go-github-com-pkg-xattr"
+synopsis "Support for extended file system attributes"
+description
+ "Package xattr provides support for extended attributes on Linux, Darwin and
+    FreeBSD.  Extended attributes are name:value pairs permanently associated with
+    files or directories.  They are similar to the environment strings associated with
+    a process.  An attribute may be defined or undefined.  If defined, its value may
+    be empty or non-empty.  You can find more details here:
+    https://en.wikipedia.org/wiki/Extended_file_attributes}
+    ."
+name "go-github-com-schachmat-ingo"
+synopsis "Go library to persist flags in a INI-like configuration file"
+description
+    configuration file."
+name "go-github-com-operatorfoundation-monolith-go"
+synopsis "Byte sequences library"
+description "Monolith-Go is a Go library for working with byte sequences."
+    functionality for functions that may fail.  It includes various customizable
+    retry strategies, such as fixed delay, backoff delay, and random delay."
+name "go-github-com-deckarep-golang-set"
+synopsis "Set type for Go"
+description "Set is the set collection for the Go language."
+    types."
+name "go-github-com-bitly-go-hostpool"
+synopsis "Pool among multiple hosts from Golang"
+description
+ "This package provides a Go package to intelligently and flexibly pool among
+    multiple hosts from your Go application.  Host selection can operate in round
+    robin or epsilon greedy mode, and unresponsive hosts are avoided."
+name "go-github-com-bitly-timer-metrics"
+description
+ "This package provides an efficient way to capture timing information and
+    periodically output metrics"
+name "go-github-com-blanu-dust"
+synopsis "Censorship-resistant internet transport protocol"
+description "Dust is an Internet protocol designed to resist a number of
+    attacks currently in active use to censor Internet communication.  While
+    adherence to the theoretical maxims of cryptographic security is observed where
+    possible, the focus of Dust is on real solutions to real attacks."
+name "go-github-com-op-go-logging"
+synopsis "Go logging library"
+description "Go-Logging implements a logging infrastructure for Go.  Its
+    output format is customizable and supports different logging backends like
+    syslog, file and memory.  Multiple backends can be utilized with different log
+    levels per backend and logger."
+name "go-github-com-operatorfoundation-shapeshifter-ipc"
+synopsis "Go implementation of the Pluggable Transports IPC protocol"
+description "Shapeshifter-IPC is a library for Go implementing the IPC
+    protocol from the Pluggable Transports 2.0 specification."
+name "go-github-com-operatorfoundation-obfs4"
+synopsis "Network obfourscator to scramble network traffic"
+description "Obfs4 is a look-like nothing obfuscation protocol that
+    incorporates ideas and concepts from Philipp Winter's ScrambleSuit protocol.
+    The notable differences between ScrambleSuit and obfs4 are:
+    Ticket Handshake.
+    obfuscated via the Elligator 2 mapping.
+    the golang proxy package which connects through a TURN relay.  It provides
+    parsing and encoding support for STUN and TURN protocols."
+name "go-github-com-flopp-go-findfont"
+synopsis "go-findfont"
+description
+ "This package provides a platform-agnostic Go library to locate
+    TrueType font files in your system's user and system font directories."
+name "go-github-com-phpdave11-gofpdi"
+synopsis "PDF document importer"
+description
+ "gofpdi allows you to import an existing PDF into a new PDF."
+name "go-github-com-signintech-gopdf"
+synopsis "Generating PDF documents"
+description "gopdf is a Go library for generating PDF documents."
+name "go-github-com-wraparound-wrap"
+synopsis "Format Fountain screenplays"
+description
+ "Wrap is a command line tool that is able to convert Fountain files into a
+    correctly formatted screen- or stageplay as an HTML or a PDF.  It supports
+    standard Fountain, but also has some custom syntax extensions such as
+    translated keywords and acts."
+name "go-gitlab-torproject-org-tpo-anti-censorship-pluggable-transports-goptlib"
+synopsis "Go pluggable transports library"
+description "GoPtLib is a library for writing Tor pluggable transports in
+    Go."
+name "go-gitlab-torproject-org-tpo-anti-censorship-pluggable-transports-lyrebird"
+synopsis "Look-like nothing obfuscation protocol"
+description "This is a look-like nothing obfuscation protocol that
+    incorporates ideas and concepts from Philipp Winter's ScrambleSuit protocol."
+name "go-github-com-sevlyar-go-daemon"
+synopsis "Library for writing system daemons"
+description "Go-Daemon is a library for writing system daemons in Go."
+    management interface.  It can be used to monitor and control an OpenVPN process
+    running with its management port enabled."
+name "go-github-com-dchest-siphash"
+synopsis "Go library for pseudorandom functions"
+description "SipHash is a family of pseudorandom functions PRFs optimized
+    for speed on short messages."
+name "go-github-com-rakyll-statik"
+synopsis "Embed files into a Go executable"
+description "Statik allows you to embed a directory of static files into
+    your Go binary to be later served from an http.FileSystem."
+    case for these are for command-line applications but alternate progress bar
+    writers can be supplied for alternate environments."
+name "go-github-com-miolini-datacounter"
+synopsis "Counters for Go readers and writers"
+description
+ "The datacounter package provides counters for Go readers and writers."
+name "go-github-com-emersion-go-textwrapper"
+synopsis "Text-wrapping writer for Go"
+description
+ "The textwrapper package provides a writer that wraps long text lines to
+    a specified length."
+    Netscape/Mozilla's old-style cookie files.  It also implements a simple cookie
+    jar struct to manage the cookies added to the cookie jar."
+name "go-github-com-gizak-termui"
+synopsis "Terminal dashboard widget Go library"
+description
+ "The termui Go library draws customizable dashboard widgets in a text
+    but also more complex items such as stacked bar and pie charts, scatter plots,
+    gauges, and even images and a canvas for drawing `high resolution' braille dots.
+    You can also easily create new custom widgets.  Widgets can be coloured and
+    styled and positioned absolutely or relatively.  They respond to keyboard,
+    mouse, and terminal resizing events."
+name "go-github-com-golangplus-fmt"
+name "go-github-com-mitchellh-go-wordwrap"
+synopsis "Go library for word-wrapping strings"
+description
+ "This Go library automatically wraps words onto multiple lines.  It's
+    primary goal is to format command-line output, but of course word wrapping is a
+    generally useful thing to do."
+name "go-github-com-daviddengcn-go-colortext"
+synopsis "Change the color of console text and background"
+description
+ "This is a package to change the color of the text and background in the
+    console, working both under Windows and other systems.
+    Under Windows, the console APIs are used.  Otherwise, ANSI texts are output."
+name "go-github-com-leodido-go-urn"
+synopsis "Parser for uniform resource names as seen on RFC 2141"
+description
+ "This package implements a parser for uniform resource names URN as
+name "go-github.com-jessevdk-go-flags"
+synopsis "Go library for parsing command line arguments"
+description
+    way of specifying command line options."
+name "go-github-com-go-playground-locales"
+synopsis "Set of locales generated from the CLDR Unicode Project"
+description
+ "This package provides a set of locales generated from the
+    independently or within an internalization i18n package.  Its currently
+    implemented features include
+name "go-github-com-go-playground-universal-translator"
+synopsis "Translator using Unicode CLDR data and pluralization rules"
+description
+ "This package offers an Internalization Translator for Go using
+    rules.  Its currently implemented features include
+    professionally translated
+name "go-gopkg-in-go-playground-validator-v9"
+synopsis "Validator for structs and individual fields based on tags"
+description
+ "This package implements value validations for structs and individual
+    fields based on tags.  It has the following unique features:
+    custom validators
+    multidimensional field to be validated
+    Valuer}
+    to a single tag for easier defining of validations on structs
+    JSON name while validating and have it available in the resulting FieldError
+    web framework
+    sunset times from geographical coordinates and a date."
+name "go-github-com-nsqio-go-diskqueue"
+synopsis "Go package providing a file system backed FIFO queue"
+description
+    queue."
+name "go-github-com-nsqio-go-nsq"
+synopsis "Consumer/producer library for NSQ"
+description
+    Hebrew letters."
+    a given year.  Shabbat and holiday candle lighting and havdalah times
+    are approximated based on location.
+    Torah readings, Daf Yomi, and counting of the Omer can also be
+    specified.  Algorithms are included to calculate yahrzeits, birthdays,
+    and anniversaries."
+    termination."
+name "go-gopkg-in-tomb-v1"
+name "go-gopkg-in-natefinch-lumberjack.v2"
+ `"github.com/burntsush/toml" ,go-github-com-burntsushi-toml
+synopsis "Rolling logger for Go"
+description
+ "Lumberjack is a Go package for writing logs to rolling files."
+name "go-github.com-jtolds-gls"
+description
+    per-goroutine."
+name "go-github-com-saracen-walker"
+synopsis "Faster, parallel version of Go's filepath.Walk"
+name "go-github-com-tdewolff-hasher"
+synopsis "Go known-keys fast-lookup map generator"
+description
+ "Hasher is a tool to automate the creation of methods and tables for a
+name "go-github-com-tj-docopt"
+synopsis "Go implementation of docopt"
+description
+ "This library allows the user to define a command-line interface from a
+    program's help message rather than specifying it programmatically with
+    command-line parsers."
+name "go-github-com-hashicorp-hcl"
+synopsis "Go implementation of HashiCorp Configuration Language V1"
+description
+    HashiCorp Configuration Language}.  HCL is designed to be a language for
+    expressing configuration which is easy for both humans and machines to read."
+name "go-github-com-hashicorp-hcl-v2"
+synopsis "Go implementation of HashiCorp Configuration Language V2"
+description
+    HashiCorp Configuration Language}.  HCL is designed to be a language for
+    expressing configuration which is easy for both humans and machines to read."
+name "go-golang-org-x-exp"
+synopsis "Experimental and deprecated Go packages"
+description
+    directory packages."
+name "go-golang-org-x-tools"
+synopsis "Tools that support the Go programming language"
+description "This package provides miscellaneous tools that support the
+    Go programming language."
+name "go-golang-org-x-crypto"
+synopsis "Supplementary cryptographic libraries in Go"
+description "This package provides supplementary cryptographic libraries
+    for the Go language."
+name "govulncheck"
+synopsis "Go Vulnerability Management"
+description
+ "This repository contains packages for accessing and analyzing data from
+name "go-golang-org-x-vuln"
+name "gopls"
+synopsis "Official language server for the Go language"
+description
+ "Pronounced ``Go please'', this is the official Go language server
+    developed by the Go team.  It provides IDE features to any LSP-compatible
+    editor."
+name "go-golang.org-x-net-html"
+synopsis "HTML5-compliant tokenizer and parser"
+description
+ "This package provides an HTML5-compliant tokenizer and parser."
+    processing."
+    to the ones provided by the language and “sync” and “sync/atomic”
+    packages."
+    support for low-level interaction with the operating system."
+name "go-golang-org-x-text"
+synopsis "Supplemental Go text processing libraries"
+description "This package provides supplemental Go libraries for text
+processing."
+    time."
+ spec in Go."
+    with Go module mechanics.  That is, it is for direct manipulation of Go modules
+    themselves.
+    The specific case of loading packages should still be done by invoking the
+    loading algorithms."
+name "go-github-com-burntsushi-toml"
+synopsis "Toml parser and encoder for Go"
+description
+ "This package is toml parser and encoder for Go.  The interface
+name "go-github-com-hashicorp-go-uuid"
+synopsis "Generate UUID-format strings"
+description
+ "This package generates UUID-format strings using high quality bytes.
+    It is not intended to be RFC compliant, merely to use a well-understood string
+    representation of a 128-bit value.  It can also parse UUID-format strings into
+    their component bytes."
+    constraints"
+    constraints, and verifying versions against a set of constraints.  It can sort
+    a collection of versions properly, handles prerelease/beta versions, can
+    increment versions."
+    Go."
+name "go-github-com-stretchr-objx"
+synopsis "Go package for dealing with maps, slices, JSON and other data"
+description "This package provides a Go library for dealing with maps,
+    slices, JSON and other data."
+name "go-github-com-technoweenie-multipartstreamer"
+synopsis "MIME multipart format streamer"
+description
+ "This package helps you encode large files in MIME multipart format
+    without reading the entire content into memory."
+    optimized for performance yet simple to use."
+name "gron"
+ let import-path "github.com/tomnomnom/gron"
+ `"github.com/fatih/color" ,go-github-com-fatih-color
+synopsis "Transform JSON to make it easier to grep"
+description
+ "This package transforms JSON into discrete assignments to make it easier
+    to use line-based tools such as grep to search for what you want and see the
+    absolute \"path\" to it."
+    information about the resource usage and performance characteristics of running
+    containers."
+name "go-github-com-andybalholm-brotli"
+synopsis "Pure Go Brotli encoder and decoder"
+description
+ "This package is a brotli compressor and decompressor implemented in Go.
+    It was translated from the reference implementation
+name "go-github-com-spf13-afero"
+ `"golang.org/x/text" ,go-golang-org-x-text
+synopsis "File system abstraction for Go"
+description
+ "This package provides a file system abstraction for Go."
+name "go-github-com-spf13-cast"
+synopsis "Safe and easy casting from one type to another in Go"
+description "Safe and easy casting from one type to another in Go"
+name "go-github-com-spf13-cobra"
+ `"github.com/spf13/pflag" ,go-github-com-spf13-pflag
+synopsis "Go library for creating CLI applications"
+description "Cobra is both a library for creating powerful modern CLI
+    applications as well as a program to generate applications and command files."
+name "go-github-com-spf13-jwalterweatherman"
+synopsis "Go logging library"
+description "Go logging library"
+name "go-github-com-spf13-pflag"
+description
+    POSIX/GNU-style command-line options with double hyphens.  It is is compatible
+    with the
+    GNU extensions} to the POSIX recommendations for command-line options."
+name "go-github-com-spf13-viper"
+ `"github.com/spf13/afero" ,go-github-com-spf13-afero
+synopsis "Go configuration with fangs"
+description
+ "Viper is a complete configuration solution for Go applications including
+    12-Factor apps.  It is designed to work within an application, and can handle
+    all types of configuration needs and formats."
+name "go-github-com-fsnotify-fsnotify"
+ `"golang.org/x/sys" ,go-golang-org-x-sys
+synopsis "File system notifications for Go"
+description "File system notifications for Go"
+name "go-github-com-nxadm-tail"
+description
+ "This package provides a Go library for reading from continuously
+name "go-github-com-magiconair-properties"
+synopsis "Java properties scanner for Go"
+description "Java properties scanner for Go"
+name "go-github-com-pelletier-go-toml"
+ `"github.com/BurntSushi/toml" ,go-github-com-burntsushi-toml
+synopsis "Go library for the TOML configuration language"
+description "Go library for the TOML configuration language"
+name "go-github-com-subosito-gotenv"
+synopsis "Go library for loading environment variables from files"
+description "Go library for loading environment variables from files"
+name "go-github-com-sirupsen-logrus"
+synopsis "Structured, pluggable logging for Go"
+description "Logrus is a structured logger for Go, completely API
+    compatible with the standard library logger."
+name "go-github-com-rifflock-lfshook"
+synopsis "Local File System hook for Logrus logger"
+description "This package provides a hook for Logrus to write directly to
+    a file on the file system.  The log levels are dynamic at instantiation of the
+    hook, so it is capable of logging at some or all levels."
+    file that is running.  This can be used for upgrading the current executable or
+    finding resources located relative to the executable file."
+    run programs as a service using a variety of supervisors, including systemd,
+    SysVinit, and more."
+name "go-github-com-dgryski-go-metro"
+synopsis "Go translation of MetroHash"
+description
+ "This package provides a Go translation of the
+    MetroHash}, a high quality, high performance hash algorithm."
+name "go-github-com-dgryski-go-mph"
+synopsis "Go minimal perfect hash function"
+description
+ "This package implements a hash/displace minimal perfect hash function."
+    deliver content"
+    store, and deliver content.  It contains Docker Registry 2.0 and libraries
+    to interact with distribution components."
+    the Go language.  In particular it provides tools to deal with network address
+    translation NAT, proxies, sockets, and transport layer security TLS."
+name "go-github-com-docker-go-units"
+synopsis "Parse and print size and time units in human-readable format"
+description
+    machine friendly values."
+    hosting providers, and inside your data center.  It creates servers, installs
+    Docker on them, then configures the Docker client to talk to them."
+    Given a cron expression and a time stamp, you can get the next time stamp
+    which satisfies the cron expression."
+name "go-gopkg-in-ini-v1"
+synopsis "Go library for ini files"
+description "Go library for ini files"
+name "go-gopkg-in-yaml-v2"
+synopsis "YAML reader and writer for the Go language"
+description
+ "This package provides a Go library for encode and decode YAML
+    values."
+name "go-gopkg-in-yaml-v3"
+synopsis "YAML reader and writer for the Go language"
+description
+ "This package provides a Go library for encode and decode YAML values.
+    The yaml package supports most of YAML 1.2, but preserves some behavior from
+    1.1 for backwards compatibility."
+name "go-github-com-matrix-org-gomatrix"
+synopsis "Golang Matrix client"
+description "This package provides a Golang Matrix client."
+name "go-github-com-mattn-go-isatty"
+    tell you whether a file descriptor points to a terminal and the type of the
+    terminal."
+name "go-github-com-mattn-go-colorable"
+synopsis "Handle ANSI color escapes on Windows"
+    makes it possible to handle ANSI color escapes on Windows."
+    generate ANSI colored strings."
+    run a Lua virtual machine."
+    all functions from the Lua string library.  Lua patterns are replaced by Go
+    regexps.  This breaks compatibility with Lua, but Unicode support breaks it
+    anyways and Go regexps are more powerful."
+    when provided with a valid relative path / alias path, it will return you with
+    a string of its real absolute path in the system."
+    Damerau-Levenshtein distance.  Takes a string value input from the user.
+    similar word."
+name "misspell"
+synopsis "Correct commonly misspelled English words in source files"
+description
+ "misspell assists with correcting commonly misspelled English words in
+    source files.  A neutral variety of English is used by default, but a US or UK
+    locale can be selected."
+name "go-github-com-client9-misspell"
+    convenient.  Go structs, slices and maps can be automatically converted to Lua
+    tables and vice-versa.  The resulting conversion can either be a copy or a
+    proxy.  In the latter case, any change made to the result will reflect on the
+    source.
+    Any Go function can be made available to Lua scripts, without having to write
+    C-style wrappers.
+    User-defined types can be made available to Lua as well: their exported
+    methods can be called and usual operations such as indexing or arithmetic can
+    be performed."
+    values.  This is useful during debugging, to avoid wrapping long output lines
+    in the terminal.
+    that accepts a format string.  It also provides convenience wrappers for
+    and lookup requests.  Browse requests are not supported yet."
+name "go-github-com-gogo-protobuf"
+synopsis "Protocol Buffers for Go with Gadgets"
+description "Gogoprotobuf is a fork of golang/protobuf with extra code
+    generation features.  This code generation is used to achieve:
+    that's a lot faster and only does simple bandwidth metrics."
+name "go-github-com-davecgh-go-spew"
+synopsis "Deep pretty printer for Go data structures to aid in debugging"
+    for Go data structures to aid in debugging.
+    A quick overview of the additional features spew provides over the built-in printing facilities for Go data types are as follows:
+    unexported types.
+    pointer receiver are optionally invoked when passing non-pointer variables.
+    includes offsets, byte values in hex, and ASCII output only when using Dump
+    style.
+    provides a default implementation of a subsystem-aware leveled logger
+    implementing the same interface."
+    encoding and 8 times faster decoding."
+name "go-github-com-mreiferson-go-options"
+synopsis "Go package to structure and resolve options"
+description
+    command line flags, config files, and default struct values."
+  ;; NSQ specific fork of github.com/judwhite/go-svc, as Guix go build system
+  ;; does not support go.mod with `replace' statement.
+name "go-github-com-spaolacci-murmur3"
+synopsis "Native MurmurHash3 Go implementation"
+description "Native Go implementation of Austin Appleby's third MurmurHash
+    revision aka MurmurHash3.
+    Reference algorithm has been slightly hacked as to support the streaming mode
+    required by Go's standard Hash interface."
+name "go-github-com-twmb-murmur3"
+synopsis "Native MurmurHash3 Go implementation"
+description "Native Go implementation of Austin Appleby's third
+    MurmurHash revision aka MurmurHash3.
+    Reference algorithm has been slightly hacked as to support the streaming mode
+    required by Go's standard Hash interface."
+    statistics for wrapped connections."
+    cross-compilation environments.
+    Usage is simple, just call homedir.Dir to get the home directory for a user,
+    directory.
+    requires cgo on Darwin systems.  This means that any Go code that uses that
+    package cannot cross compile.  But 99% of the time the use for
+    the current user without cgo.  This library does that, enabling
+    cross-compilation."
+name "go-github-com-mitchellh-mapstructure"
+synopsis "Go library for decoding generic map values"
+description "Go library for decoding generic map values"
+name "go-github-com-mitchellh-reflectwalk"
+synopsis "Walk a value in Go using reflection"
+description "reflectwalk is a Go library for \"walking\" a value in Go
+    using reflection, in the same way a directory tree can be \"walked\" on the
+    file system.  Walking a complex structure can allow you to do manipulations on
+    unknown structures such as those decoded from JSON."
+name "go-github-com-mitchellh-copystructure"
+synopsis "Go library for decoding deep copying values"
+    in Go.
+    This allows you to copy Go values that may contain reference values such as
+    maps, slices, or pointers, and copy their data as well instead of just their
+    references."
+    does the following:
+name "go-github-com-urfave-cli"
+synopsis "Simple, fast, and fun package for building command line apps in Go"
+    building command line apps in Go.  The goal is to enable developers to write
+    fast and distributable command line applications in an expressive way."
+name "go-github-com-urfave-cli-v2"
+name "go-github-com-go-md2man"
+synopsis "Convert markdown into roff"
+description "Go-md2man is a Go program that converts markdown to roff for
+    the purpose of building man pages."
+    package can parse netrc files, make changes to them, and then serialize them
+    back to netrc format, while preserving any whitespace that was present in the
+    source file."
+name "go-github-com-russross-blackfriday"
+synopsis "Markdown processor in Go"
+description "Blackfriday is a Markdown processor in Go."
+    messages depending on environment variables.  It is very much inspired by git's
+    GIT_TRACE mechanism."
+name "go-github-com-shurcool-sanitized-anchor-name"
+synopsis "Create sanitized anchor names"
+description "This package provides a Go program for creating sanitized
+    anchor names."
+name "go-github-com-pmezard-go-difflib"
+synopsis "Go diff implementation"
+description "This package provides unified and context-aware diffs in Go."
+    have super fancy logs."
+    format in Go."
+name "go-github-com-kr-pretty"
+synopsis "Pretty printer for Go values"
+description "This package provides a pretty printer for Go values."
+name "go-github-com-kylelemons-godebug"
+synopsis "Pretty printer for Go values"
+description
+ "This package will pretty print a compact representation of a Go data
+    structure.  It can also produce a much more verbose, one-item-per-line
+    representation suitable for computing diffs."
+name "go-github-com-kr-text"
+synopsis "Text formatting in Go"
+description "This package provides a text formatting functions in Go."
+name "go-github-com-go-sql-driver-mysql"
+synopsis "MySQL driver for golang"
+description
+ "This is a pure Go implementation of the MySQL API, compatible with
+    golang's database/sql package."
+name "go-github-com-syndtr-goleveldb-leveldb"
+synopsis "LevelDB implementation in Go"
+description
+ "This package provides a Go implementation of the LevelDB key/value
+    storage system."
+name "go-github-com-lucasb-eyer-go-colorful"
+synopsis "Library for playing with colors in Go"
+description
+ "The colorful package provides a library for using colors in Go.
+    It stores colors in RGB and provides methods for converting these to
+    various color spaces."
+  deprecated-package "go-golang-org-colorful" go-github-com-lucasb-eyer-go-colorful
+name "go-github-com-gdamore-encoding"
+synopsis "Provide encodings missing from Go"
+description "This package provides useful encodings not included in the
+    non-UTF-friendly sources."
+name "go-github-com-cention-sany-utf7"
+synopsis "UTF-7 for Go"
+description
+ "The utf7 package provides support for the obsolete UTF-7 text
+    encoding in Go."
+name "go-github-com-cespare-mph"
+synopsis "Minimal perfect hashing in Go"
+description
+    over strings."
+    terminfo capability strings to avoid hard-coding escape strings for
+    formatting.  It also favors portability, and includes support for all POSIX
+    systems."
+name "go-github-com-gdamore-tcell"
+name "go-git-sr-ht-rockorager-tcell-term"
+description
+    Go library."
+name "go-github-com-rivo-tview"
+synopsis "Rich Interactive Widgets for Terminal UIs"
+description
+ "The tview package implements rich widgets for terminal based user
+    interfaces.  The widgets provided with this package are useful for data
+    exploration and data entry."
+name "go-github-com-xo-terminfo"
+synopsis "Read the terminfo database in Go"
+description
+ "The terminfo package implements terminfo database reading for Go."
+    locks.  These appear to be especially useful for synchronizing access to
+    session based information in web applications.
+    The common use case is to use the package level functions, which use a package
+    level set of locks safe to use from multiple goroutines
+    simultaneously.  However, you may also create a new separate set of locks
+    test.
+    All locks are implemented with read-write mutexes.  To use them like a regular
+    mutex, simply ignore the RLock/RUnlock functions."
+name "go-github-com-cheekybits-genny"
+synopsis "Generics for Go"
+    implementation of generics."
+name "go-github-com-quic-go-qpack"
+synopsis "Minimal QPACK RFC 9204 implementation for Go"
+description
+ "A minimal QPACK RFC 9204 implementation in Go.  It is minimal in the sense
+    that it doesn't use the dynamic table at all, but just the static table and Huffman
+    encoded string literals.  Wherever possible, it reuses code from the
+    the Go standard library}."
+name "go-github-com-quic-go-quic-go"
+synopsis "QUIC in Go"
+description "This package provides a Go language implementation of the QUIC
+    network protocol."
+  deprecated-package "go-github-com-lucas-clemente-quic-go" go-github-com-quic-go-quic-go
+name "go-github-com-lunixbochs-vtclean"
+synopsis "Filter out terminal escape sequences"
+description
+    designed to clean up raw terminal output by stripping escape sequences,
+    optionally preserving color."
+name "go-github-com-pkg-errors"
+synopsis "Go error handling primitives"
+    error handling primitives in Go."
+name "go-github-com-maruel-panicparse"
+synopsis "Toolkit for parsing Go stack traces"
+description "This package provides a toolkit for parsing Go language panic
+    stack traces.  It simplifies the traces to make salient information more visible
+    and aid debugging."
+name "go-github-com-robfig-cron"
+synopsis "Cron library for Go"
+description "This package provides a cron library for Go.  It implements
+    a cron spec parser and job runner."
+    on running processes and system utilization CPU, memory, disks, network,
+    sensors."
+ name "go-github-com-danwakefield-fnmatch"
+ synopsis "Updated clone of kballards golang fnmatch gist"
+ description "This package provides an updated clone of kballards golang
+    fnmatch gist https://gist.github.com/kballard/272720."
+name "go-github-com-emersion-go-imap"
+synopsis "IMAP4rev1 library written in Go"
+description
+ "This package provides an IMAP4rev1 library written in Go.  It
+    can be used to build IMAP clients and servers."
+name "go-github-com-emersion-go-imap-sortthread"
+synopsis "Sorting and threading of messages for the imap package"
+description
+ "The sortthread package implements message sorting and threading for
+name "go-github-com-emersion-go-smtp"
+synopsis "SMTP implementation for Go"
+description
+ "This package implements the Simple Mail Transfer Protocol as
+    defined by RFC 5321."
+name "go-github-com-emersion-go-maildir"
+synopsis "Maildir interface for Go"
+description
+ "This package provides an interface to mailboxes in the Maildir
+    format."
+name "go-github-com-emersion-go-milter"
+synopsis "Milter mail filters in Go"
+description
+ "This package provides an interface for implementing milter mail
+    filters for Go."
+name "go-github-com-emersion-go-msgauth"
+synopsis "Email authentication for Go"
+description
+ "This package provides a Go library for authenticating emails."
+name "go-github-com-emersion-go-mbox"
+description
+ "This package provides a library for parsing and formatting
+name "go-github-com-fatih-color"
+synopsis "Print colored text in Go"
+description "This package provides an ANSI color package to output
+    colorized or SGR defined output to the standard output."
+name "go-github-com-google-go-cmp-cmp"
+synopsis "Determine equality of values in Go"
+description
+ "This package is intended to be a more powerful and safer
+    semantically equal."
+name "go-github-com-google-uuid"
+synopsis "Generate and inspect UUIDs based on RFC 4122 and DCE 1.1"
+description "The uuid package generates and inspects UUIDs based on RFC
+    4122 and DCE 1.1: Authentication and Security Services."
+name "go-github-com-google-gopacket"
+synopsis "Packet processing capabilities library"
+description
+ "This package provides packet processing capabilities for Go."
+    attributes.  It also contains some convenience functions for colors, SSH to
+    and from termios translations, readCh, reading passwords, etc."
+    into URL query parameters."
+name "go-github-com-google-renameio"
+synopsis "Atomically create or replace a file or symbolic link"
+    create or replace a file or symbolic link."
+    for groups of goroutines working on subtasks of a common task"
+    and Context cancellation for groups of goroutines working on subtasks of a
+    common task."
+name "go-golang.org-x-sync-semaphore"
+synopsis "Weighted semaphore implementation in Go"
+description "Weighted semaphore implementation in Go."
+    define go-gotest-tools-source version sha256-base32-hash
+method git-fetch
+uri git-reference
+file-name git-file-name "go-gotest-tools" version
+sha256
+ base32 sha256-base32-hash
+    define go-gotest-tools-package suffix
+name string-append "go-gotest-tools-"
+ go-gotest-tools-source version
+synopsis "Formats messages for use with gotest-tools"
+description "This package provides a way to format messages for use
+    with gotest-tools."
+synopsis "Differences for use with gotest-tools"
+description "This package computes differences for use
+    with gotest-tools."
+ substitute-keyword-arguments
+synopsis "Source code AST formatters for gotest-tools"
+description "This package provides source code AST formatters for
+    gotest-tools."
+name "go-gotest-tools-assert"
+; `"go-gotest-tools-internal-format" ,go-gotest-tools-internal-format
+synopsis "Compare values and fail a test when a comparison fails"
+description "This package provides a way to compare values and fail a
+    test when a comparison fails."
+name "gotestsum"
+synopsis "Go test runner with output optimized for humans"
+    optimized for humans, JUnit XML for CI integration, and a summary of the
+    test results."
+name "go-github-com-golang-protobuf-proto"
+synopsis "Go support for Protocol Buffers"
+description "This package provides Go support for the Protocol Buffers
+    data serialization format."
+name "go-google-golang-org-protobuf"
+synopsis "Go library for Protocol Buffers"
+description
+ "The protobuf package provides a Go implementation of Protocol Buffers, a
+    language and platform neutral, extensible mechanism for serializing structured
+    data.
+    improved and cleaner API."
+name "go-github-com-macronut-go-tproxy"
+synopsis "Linux Transparent Proxy library"
+description
+ "Golang TProxy provides an easy to use wrapper for the Linux Transparent
+    Proxy functionality."
+name "go-github-com-mattn-go-zglob"
+synopsis "Glob library that descends into other directories"
+description "A glob library that implements descending into other
+    directories.  It is optimized for filewalking."
+name "go-github-com-mattn-go-sqlite3"
+synopsis "Sqlite3 driver for Go"
+description "This package provides a Sqlite3 driver for Go using
+name "go-github-com-bits-and-blooms-bitset"
+synopsis "Bitsets in Go"
+description "This package provides a Go implementation of bitsets, which
+    are a mapping between non-negative integers and boolean values focused on
+    efficient space usage."
+  deprecated-package "go-github-com-willf-bitset" go-github-com-bits-and-blooms-bitset
+name "go-github-com-bits-and-blooms-bloom"
+synopsis "Bloom filters in Go"
+description "This package provides a Go implementation of bloom filters,
+    based on murmurhash."
+  deprecated-package "go-github-com-willf-bloom" go-github-com-bits-and-blooms-bloom
+    characters with their ASCII approximations."
+name "go-github-com-fogleman-gg"
+synopsis "2D rendering in Go"
+name "go-github-com-klauspost-cpuid"
+synopsis "CPU feature identification for Go"
+    current program.  CPU features are detected on startup, and kept for fast access
+    through the life of the application.  Currently x86 / x64 AMD64 is supported,
+    and no external C cgo code is used, which should make the library very eas
+    to use."
+    physical system memory accessible to the kernel.  It does not account for memory
+    used by other processes."
+    Porter2 stemmer}.  It is written completely using finite state machines to do
+    suffix comparison, rather than the string-based or tree-based approaches."
+name "go-github-com-masterminds-goutils"
+synopsis "Utility functions to manipulate strings"
+description "GoUtils provides utility functions to manipulate strings in
+    various ways.  It is a Go implementation of some string manipulation libraries
+    of Java Apache Commons."
+name "go-github-com-masterminds-semver"
+description "The semver package provides the ability to work with
+    semantic versions.  Specifically it provides the ability to:
+name "go-github-com-huandu-xstrings"
+synopsis "Collection of string functions"
+description "Go package xstrings is a collection of string functions,
+    which are widely used in other languages but absent in Go package strings."
+name "go-github-com-imdario-mergo"
+synopsis "Helper to merge structs and maps in Golang"
+description "Helper to merge structs and maps in Golang.  Useful for
+    configuration default values, avoiding messy if-statements.
+    Mergo merges same-type structs and maps by setting default values in
+    zero-value fields.  Mergo won't merge unexported private fields.  It will do
+    recursively any exported one.  It also won't merge structs inside
+    maps because they are not addressable using Go reflection."
+name "go-github-com-masterminds-sprig"
+synopsis "Template functions for Go templates"
+description "Sprig is a library that provides more than 100 commonly used
+    template functions."
+    Slim-Sprig is a fork of Sprig that removes all external dependencies to make
+    the library more lightweight."
+name "go-github-com-bmatcuk-doublestar"
+synopsis "Path pattern matching and globbing supporting doublestar"
+    matching and globbing with support for \"doublestar\" patterns."
+name "go-github-com-bmizerany-perks-quantile"
+synopsis "Library for computing quantiles"
+description
+    quantiles over an unbounded data stream within low memory and CPU bounds."
+name "go-github-com-dlclark-regexp2"
+synopsis "Full featured regular expressions for Go"
+description "Regexp2 is a feature-rich RegExp engine for Go."
+name "go-github-com-alecthomas-colour"
+synopsis "Colour terminal text for Go"
+description "Package colour provides Quake-style colour formatting for
+    Unix terminals.
+    The package level functions can be used to write to stdout or strings or
+    other files.  If stdout is not a terminal, colour formatting will be
+    stripped."
+    can be used almost directly in Go source code."
+name "go-github-com-sergi-go-diff"
+synopsis "Algorithms to perform operations for synchronizing plain text"
+    synchronizing plain text:
+name "go-github-com-alecthomas-chroma"
+synopsis "General purpose syntax highlighter in pure Go"
+description "Chroma takes source code and other structured text and
+    converts it into syntax highlighted HTML, ANSI-coloured text, etc."
+name "go-github-com-muesli-reflow-wordwrap"
+synopsis "Collection of methods helping to transform blocks of text"
+description "This package provides a collection of ANSI-aware methods and
+    io.Writers helping you to transform blocks of text."
+name "go-github-com-muesli-reflow-ansi"
+name "go-github-com-muesli-reflow-indent"
+name "go-github-com-muesli-reflow-padding"
+name "go-github-com-muesli-reflow-truncate"
+name "go-github-com-muesli-termenv"
+synopsis "Advanced styling options on the terminal"
+description "termenv lets you safely use advanced styling options on the
+    terminal.  It gathers information about the terminal environment in terms of
+    its ANSI and color support and offers you convenient methods to colorize and
+    style your output, without you having to deal with all kinds of weird ANSI
+    escape sequences and color conversions."
+name "go-github-com-olekukonko-tablewriter"
+synopsis "Generate ASCII table"
+description "This package generates ASCII tables.  Features:
+    size of the terminal."
+name "go-github-com-yuin-goldmark"
+synopsis "Markdown parser"
+description "This package provides a markdown parser."
+name "go-github-com-charmbracelet-glamour"
+synopsis "Write handsome command-line tools with glamour"
+    templates on ANSI compatible terminals.  You can create your own stylesheet or
+    use one of our glamorous default themes."
+name "go-github-com-charmbracelet-harmonica"
+synopsis "Simple, physics-based animation library"
+description
+ "A simple, efficient spring animation library for smooth, natural motion."
+name "go-github-com-coreos-go-semver"
+synopsis "Semantic versioning library"
+    It lets you parse and compare two semantic version strings."
+name "go-github-com-coreos-go-systemd-activation"
+synopsis "Go bindings to systemd socket activation"
+description "Go bindings to systemd socket activation; for writing and
+    using socket activation from Go."
+name "go-github-com-emirpasic-gods"
+synopsis "Implementation of various data structures and algorithms in Go"
+description "This package provides implementation of various data
+    structures and algorithms in Go."
+name "go-gopkg-in-warnings"
+synopsis "Error handling with non-fatal errors"
+description "Package warnings implements error handling with non-fatal
+    errors warnings."
+name "go-github-com-go-git-gcfg"
+synopsis "Gcfg reads INI-style configuration files into Go structs"
+description "Gcfg reads INI-style configuration files into Go structs."
+name "go-github-com-go-git-go-billy"
+synopsis "File system abstraction for Go"
+description "Billy implements an interface based on the OS's standard
+    library to develop applications without depending on the underlying storage.
+    This makes it virtually free to implement mocks and testing over
+    file system operations."
+name "go-github-com-jba-printsrc"
+synopsis "Prints Go values as sourcecode"
+description
+ "Package printsrc prints Go values as Go source.  It strives to render
+    legal Go source code, and returns an error when detects that it cannot."
+name "go-github-com-jba-templatecheck"
+synopsis "Checks Go templates for problems"
+description
+ "Package templatecheck checks Go templates for problems.  It can detect
+    many errors that are normally caught only during execution.  Use templatecheck
+    in tests to find template errors early, and along template execution paths
+    that might only rarely be reached."
+    extensions."
+name "go-github-com-juju-ansiterm"
+synopsis "Writer to output ANSI escape codes for color and styles"
+description
+ "The ansiterm package provides a writer to output the ANSI escape codes
+    for color and styles."
+name "go-github-com-kevinburke-ssh-config"
+    Importantly, this parser attempts to preserve comments in a given file, so you
+    temporal directories."
+name "go-github-com-go-git-go-git-fixtures"
+name "go-github-com-pkg-diff"
+synopsis "Create and print diffs"
+description
+ "This package provides a Go library to create and print diffs."
+name "go-github-com-twpayne-go-shell"
+synopsis "Shell across multiple platforms"
+description
+name "go-github-com-twpayne-go-vfs"
+name "go-github-com-twpayne-go-vfsafero"
+description
+name "go-github-com-twpayne-go-xdg"
+synopsis "Functions related to freedesktop.org"
+name "go-github-com-xdg-go-stringprep"
+synopsis "Go implementation of RFC-3454 stringprep and RFC-4013 SASLprep"
+description
+ "Package stringprep provides data tables and algorithms for RFC-3454,
+    including errata.  It also provides a profile for SASLprep as defined in
+    RFC-4013."
+name "go-github-com-xdg-go-pbkdf2"
+synopsis "Go implementation of PBKDF2"
+description
+ "Package pbkdf2 implements password-based key derivation using the PBKDF2
+name "go-github-com-xdg-go-scram"
+synopsis "Go implementation of RFC-5802"
+description
+ "Package scram provides client and server implementations of the
+    RFC-5802 and RFC-7677."
+name "go-github-com-godbus-dbus"
+synopsis "Native Go client bindings for the D-Bus"
+    bindings for the D-Bus message bus system."
+    extracting information about the music/image/video that is Now Playing on the
+    system."
+    formatting information, rather than the current locale name."
+name "go-github-com-prometheus-common"
+synopsis "Prometheus metrics"
+description "This package provides tools for reading and writing
+    Prometheus metrics."
+name "go-github-com-prometheus-procfs"
+name "go-github-com-prometheus-client-golang"
+synopsis "HTTP server and client tools for Prometheus"
+    server tools for Prometheus metrics."
+name "go-github-com-zalando-go-keyring"
+synopsis "Library for working with system keyring"
+    deleting secrets from the system keyring."
+name "go-github-com-zclconf-go-cty"
+synopsis "Type system for dynamic values in Go applications"
+description
+    applications written in Go that need to represent user-supplied values without
+    losing type information.  The primary intended use is for implementing
+    configuration languages, but other uses may be possible too."
+name "go-etcd-io-bbolt"
+synopsis "Low-level key/value store in Go"
+description "This package implements a low-level key/value store in Go."
+name "go-github-com-bwesterb-go-ristretto"
+synopsis "operations on the Ristretto prime-order group"
+description "This is a pure Go implementation of the group operations on
+    the Ristretto prime-order group built from Edwards25519."
+name "go-github-com-rogpeppe-go-internal"
+synopsis "Internal packages from the Go standard library"
+description "This repository factors out an opinionated selection of
+    internal packages and functionality from the Go standard library.  Currently
+    this consists mostly of packages and testing code from within the Go tool
+    implementation.
+    Included are the following:
+name "go-gopkg-in-errgo-fmt-errors"
+synopsis "Functions that use the fmt package to format error messages"
+    except that it adds convenience functions that use the fmt package to format
+    error messages."
+    inspired by the causal messaging system in the Pony programming language."
+name "go-github-com-cheggaaa-pb-v3"
+synopsis "Console progress bar for Go"
+description "This package is a Go library that draws progress bars on
+    the terminal."
+  deprecated-package "go-github-com-cheggaaa-pb" go-github-com-cheggaaa-pb-v3
+  ;; this is the same as v1.2.0, only the LICENSE file changed
+    log package.  All the functionality of the built-in package still exists and
+    is unchanged.  This package contains a series of small enhancements and
+    additions."
+name "go-github-com-hashicorp-go-syslog"
+synopsis "Golang syslog wrapper, cross-compile friendly"
+description "This package is a very simple wrapper around log/syslog"
+name "go-golang-zx2c4-com-wireguard"
+synopsis "Implementation of WireGuard in Go"
+description "This package is a Go Implementation of WireGuard."
+name "go-github-com-kardianos-minwinsvc"
+;; some packages Yggdrasil need it to compile
+;; it's a tiny package and it's easier to bundle it than to patch it out
+synopsis "Minimal windows only service stub for Go"
+description "Go programs designed to run from most *nix style operating
+    systems can import this package to enable running programs as services without
+    modifying them."
+name "go-github-com-goccy-yaml"
+synopsis "YAML support for the Go language"
+description
+ "This package provides features beyond the
+    parsers, and related tools."
+name "go-github.com-ulikunitz-xz"
+synopsis "Read and write xz compressed streams in Go"
+description "This package provides a library to read and write xz
+    compressed streams in Go."
+name "go-github-com-songmu-gitconfig"
+synopsis "Go library to get configuration values from gitconfig"
+    sinks and sources."
+    or capture raw audio."
+name "go-github-com-pborman-getopt"
+synopsis "Getopt style option parsing for Go"
+description
+ "This package provides traditional getopt processing for implementing
+    programs that use traditional command lines."
+name "go-git-sr-ht-adnano-go-gemini"
+synopsis "Gemini protocol in Go"
+description
+    provides an API similar to that of NET/HTTP to facilitate the development of
+    Gemini clients and servers."
+name "go-git-sr-ht-sircmpwn-getopt"
+synopsis "POSIX getopt for Go"
+description
+ "This package provides a POSIX-compatible implementation of
+name "go-go-uber-org-atomic"
+synopsis "Wrapper types for sync/atomic"
+description
+ "This package provides simple wrappers for primitive types to enforce
+    atomic access."
+name "go-go-uber-org-multierr"
+synopsis "Error combination for Go"
+description
+name "gofumpt"
+synopsis "Formats Go files with a stricter ruleset than gofmt"
+description
+name "go-mvdan-cc-gofumpt"
+name "unparam"
+synopsis "Find unused parameters in Go"
+description "Reports unused function parameters and results in Go code."
+name "go-mvdan-cc-unparam"
+name "xurls"
+synopsis "Extracts URLs from text"
+description
+ "Xurls extracts urls from plain text using regular expressions.  It can
+    be used as both a binary and a library."
+name "go-mvdan-cc-xurls"
+name "go-go-uber-org-zap"
+synopsis "Logging library for Go"
+description
+ "This package provides a library for fast, structured, leveled logging in
+    Go."
+name "go-github-com-davecgh-go-xdr"
+synopsis "Pure Go implementation of the XDR standard"
+    the External Data Representation XDR standard protocol as specified in RFC
+    4506 obsoletes RFC 1832 and RFC 1014 in pure Go."
+name "go-github-com-dustin-go-humanize"
+synopsis "Humane unit formatter"
+    friendly sizes.  It converts boring ugly numbers to human-friendly strings and
+    back."
+name "go-golang-org-x-term"
+synopsis "Go terminal/console support"
+    terminals, as commonly found on Unix systems."
+name "go-github-com-klauspost-compress"
+synopsis "Go compression library"
+name "go-github-com-oneofone-xxhash"
+synopsis "Go implementation of xxHash"
+description "This is a native Go implementation of the
+    non-cryptographic hash algorithm, working at speeds close to RAM limits."
+name "go-gopkg-in-djherbis-times-v1"
+synopsis "Go library for getting file times"
+description
+ "Provides a platform-independent way to get atime, mtime, ctime and btime for files."
+name "go-github-com-valyala-bytebufferpool"
+synopsis "Anti-memory-waste byte buffer pool for Golang"
+description
+    anti-fragmentation protection."
+ ;; NOTE: Sharlatan-20211218T165504+0000: Tests failing:
+ ;;
+ ;;   Backlog:32}: lookup ip6-localhost on [::1]:53: read udp
+ ;;   [::1]:33932->[::1]:53: read: connection refused
+ ;;
+synopsis "Customizable TCP net.Listener for Go"
+description
+    performance-related options."
+name "go-github-com-vmihailenco-msgpack-v4"
+synopsis "MessagePack encoding for Golang"
+description
+ "This package provides implementation of MessagePack encoding for Go
+    programming language."
+name "go-github-com-vmihailenco-tagparser"
+synopsis "Tag parser for Golang"
+description "This package is a simple Golang implementation of tag
+    parser."
+name "go-github-com-vividcortex-ewma"
+synopsis "Exponentially Weighted Moving Average algorithms for Go"
+description
+ "This package implements algorithms for exponentially weighted moving
+    averages."
+name "go-github-com-rivo-uniseg"
+synopsis "Unicode Text Segmentation for Go"
+description
+ "This package implements Unicode Text Segmentation according to
+name "go-github-com-mattn-go-runewidth"
+synopsis "Rune width implementation for Go"
+description
+ "This package provides functions to get the fixed width of a character or
+    string."
+name "go-github-com-charmbracelet-bubbletea"
+ `"github.com/mattn/go-isatty" ,go-github-com-mattn-go-isatty
+synopsis "Powerful little TUI framework"
+description
+ "Bubble Tea is a Go framework based on The Elm Architecture.  It is
+    well-suited for simple and complex terminal applications, either inline,
+    full-window, or a mix of both."
+name "go-github-com-containerd-console"
+ `"golang.org/x/sys" ,go-golang-org-x-sys
+synopsis "Console package for Go"
+description
+ "This is Golang package for dealing with consoles.  It has few
+    dependencies and a simple API."
+name "go-github-com-arceliar-ironwood"
+synopsis "Experimental network routing library"
+description
+    when you want to communicate with some other nodes in a network, but you can't
+    guarantee that you can directly connect to every node in that network.  It was
+    written to test improvements to / replace the routing logic in
+    be useful for other network applications."
+name "go-github-com-mtibben-percent"
+synopsis "Package percent escapes strings using percent-encoding"
+description
+ "Package percent escapes strings using percent-encoding."
+  deprecated-package "go-github-com-percent" go-github-com-mtibben-percent
+name "aws-vault"
+synopsis
+ "Vault for securely storing and accessing AWS credentials"
+description
+    Services,AWS} credentials.
+    AWS Vault stores IAM credentials in your operating system's secure keystore and
+    then generates temporary credentials from those to expose to your shell and
+    applications.  It's designed to be complementary to the AWS CLI tools, and is
+    aware of your profiles and configuration in ~/.aws/config."
+    \"Secret Service\" DBus interface."
+  deprecated-package "go-github-com-go-libsecret" go-github-com-gsterjov-go-libsecret
+  deprecated-package "go-github-com-androiddnsfix" go-github-com-mtibben-androiddnsfix
+name "go-gopkg-in-ini"
+synopsis "INI file read and write functionality in Go"
+description
+ "This package provides INI file read and write functionality in Go."
+name "go-github-com-go-ini-ini"
+    that object type.  Optionally, you can specify an application to use.  On
+name "go-github-com-alecthomas-kingpin"
+synopsis "Go library provides utilities for building command line interfaces"
+description
+ "Go library provides utilities for building command line interfaces."
+  deprecated-package "go-github-com-kingpin" go-github-com-alecthomas-kingpin
+    backslash immediately after a closing delimiter will delete all subsequent
+    newlines until a non-newline."
+name "go-github-com-dreamacro-go-shadowsocks2"
+synopsis "Shadowsocks implementation in Go"
+description
+    Features:
+name "go-sigs-k8s-io-yaml"
+synopsis "YAML marshaling and unmarshaling support for Go"
+description
+ "This package provides a Go library that first converts YAML to JSON
+    it effectively reuses the JSON struct tags as well as the custom JSON
+    kubernetes-sigs/yaml is a permanent fork of
+name "go-github-com-mitchellh-colorstring"
+synopsis "Functions to colorize strings for terminal output"
+description
+ "Colorstring provides functions for colorizing strings for terminal output."
+name "go-github-com-schollz-progressbar-v3"
+synopsis "Simple command-line interface CLI progress bar"
+description
+ "This package provides a very simple thread-safe progress bar.  The
+    detect the number of bytes written to a stream, so you can use it as a
+    is undetermined, a customizable spinner is shown."
+name "go-git-sr-ht-emersion-go-scfg"
+synopsis "Go library for simple configuration file format"
+description "Package go-scfg parses scfg files."
+name "go-git-sr-ht-emersion-gqlclient"
+synopsis "GraphQL client and code generator"
+description
+ "This package provides a GraphQL client and code generator for Go."
+name "go-github-com-google-go-jsonnet"
+synopsis "Go implementation of Jsonnet"
+description
+    Jsonnet} data templating language in Go.  It is a feature-complete,
+    implementation."
+name "go-github-com-google-shlex"
+synopsis "Simple lexer for Go"
+description
+    using shell-style rules for quoting and commenting."
+name "go-github-com-google-btree"
+synopsis "Simple, ordered, in-memory data structure for Go programs"
+description
+ "This package provides an in-memory B-Tree implementation for Go, useful as an
+    ordered, mutable data structure."
+name "go-github-com-peterbourgon-diskv"
+synopsis "Disk-backed key-value store"
+description
+ "Diskv disk-vee is a simple, persistent key-value store written in the Go
+    language.  It starts with a simple API for storing arbitrary data on a filesystem by
+    key, and builds several layers of performance-enhancing abstraction on top.  The end
+    result is a conceptually simple, but highly performant, disk-backed storage system."
+name "go-github-com-disintegration-imaging"
+synopsis "Simple image processing for Go"
+description "This package provides basic image processing functions
+    resize, rotate, crop, brightness/contrast adjustments, etc.."
+    define notmuch-fixtures
+method url-fetch
+uri "http://notmuchmail.org/releases/test-databases/database-v1.tar.xz"
+sha256
+ base32
+name "go-github-com-zenhack-go-notmuch"
+synopsis "Go bindings to libnotmuch"
+description
+ "The notmuch package provides a Go language binding to the notmuch
+    email library."
+name "go-github-com-emersion-go-message"
+synopsis "Internet messages and MIME for Go"
+description
+ "The message package implements the Internet Message Format and Multipurpose
+    Internet Mail Extensions in Go."
+name "go-github-com-jaytaylor-html2text"
+synopsis "Convert HTML emails to text"
+description
+ "The html2text package converts HTML emails to plain text, allowing
+    text-only mail clients to display them."
+name "go-github-com-jhillyerd-enmime"
+synopsis "MIME encoder and decoder for Go"
+description
+ "The enmime package implements a MIME encoding and decoding
+    library geared towards parsing MIME encoded emails."
+name "go-github-com-gatherstars-com-jwz"
+synopsis "Implementation in Go of the email threading algorithm
+description
+ "The jwz package provides an implementation of the email threading
+name "go-github-com-creack-pty"
+synopsis "Pseudoterminal handling in Go"
+description
+ "The pty package provides functions for working with Unix pseudoterminals."
+name "go-github-com-riywo-loginshell"
+synopsis "Get the user's login shell in Go"
+description
+ "The loginshell package provides a Go library to get the login shell
+    of the current user."
+name "go-github-com-rylans-getlang"
+synopsis "Natural language detection package in pure Go"
+description
+ "This package provides fast natural language detection in Go."
+name "go-github-com-kyoh86-xdg"
+synopsis "XDG base directories for Go"
+description
+ "The xdg package provides lightweight helper functions in Go to get
+    config, data and cache directories according to the XDG Base Directory
+    Specification."
+name "go-github-com-ssgelm-cookiejarparser"
+synopsis "Parse a curl cookiejar with Go"
+description
+ "This package is a Go library that parses a curl netscape cookiejar
+    file into a Go http.CookieJar."
+name "go-github-com-ssor-bom"
+synopsis "Cleaning BOMs in Go"
+description
+ "The bom package provides small tools for cleaning BOMs from a byte
+    array or reader."
+name "go-github-com-gogs-chardet"
+synopsis "Character set detection for Go"
+description
+ "The chardet package ports character set detection from
+    ICU to Go."
+name "go-github-com-go-test-deep"
+synopsis "Human-friendly deep variable equality in Go"
+description
+ "The deep package provides the deep.Equal function which is like
+    when comparing complex types like structures and maps."
+name "go-github-com-niemeyer-pretty"
+synopsis "Pretty-print Go values"
+description
+ "The pretty package provides pretty-printing for Go values.  This is
+    useful during debugging, to avoid wrapping long output lines in the
+    terminal."
+name "go-github-com-arran4-golang-ical"
+synopsis "Handle iCalenders in Go"
+description
+    serialiser for Go."
+name "go-github-com-lithammer-fuzzysearch"
+synopsis "Tiny and fast fuzzy search in Go"
+description
+ "A speedy fuzzy matching package for Go inspired by the JavaScript
+    library bevacqua/fuzzysearch."
+name "go-github-com-onsi-gomega"
+synopsis "Matcher library for Ginkgo"
+description
+ "Gomega is the preferred matcher library for the Ginkgo test framework."
